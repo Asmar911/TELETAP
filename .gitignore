@@ -1,0 +1,18 @@
+# Ignore all __pycache__ folders
+**/__pycache__/
+
+# Ignore specific folders in global_data
+global_data/allsessions/
+global_data/sessions/
+
+# Ignore .env file
+.env
+
+# Ignore Python virtual environment folders and files
+venv/
+env/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
