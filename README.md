@@ -2,7 +2,7 @@
   TELETAP
 </h1>
 <p align="center">
-    Autoclicker bot for Telegram MiniApps
+    Autoclicker for Telegram MiniApps
 </p>
 
 <!-- <p align="center">
