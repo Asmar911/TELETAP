@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     ACCOUNTS_MOOD_SEQUENTIAL: bool= global_settings.ACCOUNTS_MOOD_SEQUENTIAL
 
 
-    PLAY_GAMES: bool = True
+    PLAY_GAMES: bool = False  # Not working for now
     POINTS: list[int] = [190, 230]
 
     USE_REF: bool = False
