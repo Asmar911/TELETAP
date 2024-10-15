@@ -20,6 +20,6 @@ class Settings(BaseSettings):
     POINTS: list[int] = [190, 230]
 
     USE_REF: bool = False
-    REF_ID: str = 'ref_P4Rbg063KM'
+    REF_ID: str = global_settings.ACTIVE_BOTS['blum']['REF_ID']
 
 settings = Settings()

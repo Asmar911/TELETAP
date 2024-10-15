@@ -48,7 +48,7 @@
   <h2 align="center">Coming Soon ⏳</h2>
 
   <p align="center">
-    <a href='http://t.me/token1win_bot/start?startapp=refId1254614970'>1Win Token</a>
+    <a href='https://t.me/token1win_bot/start?startapp=refId1254614970'>1Win Token</a>
     | <a href='https://t.me/BitsTonboxBot/BitsAirdrops?startapp=EJLsu9TTBuiazC93NnbaNz'>Bits</a>
     | <a href='https://t.me/boinker_bot/boinkapp?startapp=boink153623395'>Boinkers</a>
     | <a href='https://t.me/bums/app?startapp=ref_7tSfMieY'>Bums</a>

@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     ACCOUNTS_MOOD_SEQUENTIAL: bool= global_settings.ACCOUNTS_MOOD_SEQUENTIAL
 
 
-    REF_ID: str = '0000omgl'
+    REF_ID: str = global_settings.ACTIVE_BOTS['tomarket']['REF_ID']
     
     FAKE_USERAGENT: bool = True
     POINTS_COUNT: list[int] = [450, 600]

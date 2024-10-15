@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     BIG_SLEEP: list[int] = global_settings.BIG_SLEEP
     ACCOUNTS_MOOD_SEQUENTIAL: bool= global_settings.ACCOUNTS_MOOD_SEQUENTIAL
 
-    REF_ID: str = 'VcEZmxM20ef4jbRAn1ppe'
+    REF_ID: str = global_settings.ACTIVE_BOTS['catsgang']['REF_ID']
 
 
     AUTO_TASK: bool = True

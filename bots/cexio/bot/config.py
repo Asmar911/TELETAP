@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     ACCOUNTS_MOOD_SEQUENTIAL: bool= global_settings.ACCOUNTS_MOOD_SEQUENTIAL
 
 
-    REF_ID: str = "1716712060572190"
+    REF_ID: str = global_settings.ACTIVE_BOTS['cexio']['REF_ID']
 
     AUTO_TAP: bool = False
     MIN_ENERGY: int = 200

@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     ACCOUNTS_MOOD_SEQUENTIAL: bool= global_settings.ACCOUNTS_MOOD_SEQUENTIAL
 
 
-    REF_ID: str = '153623395'
+    REF_ID: str = global_settings.ACTIVE_BOTS['major']['REF_ID']
 
     AUTO_TASKS: bool = True
     TASKS_WITH_JOIN_CHANNEL: bool = False # Not working for now
