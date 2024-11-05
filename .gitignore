@@ -4,6 +4,7 @@
 # Ignore specific folders in global_data
 global_data/allsessions/
 global_data/sessions/
+bots/all
 
 # Ignore .env file
 .env
