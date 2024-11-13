@@ -13,7 +13,6 @@ greenlet
 idna
 loguru
 multidict
-playwright
 pyaes
 pydantic
 pydantic-settings
