@@ -36,7 +36,7 @@ class Accounts:
                     raw_proxy = input("Input the proxy in the format type://user:pass:ip:port (press Enter to use without proxy): ")
                     user_agent = input("Input the user agent: (press Enter to use random user agent): ")
                     new_account = {
-                         "session_name": session,
+                        "session_name": session,
                         "user_agent": user_agent if user_agent else generate_random_user_agent(device_type='android', browser_type='chrome'),
                         "proxy": raw_proxy if raw_proxy else None
                     }

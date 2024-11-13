@@ -887,21 +887,3 @@ async def run_tapper(tg_client: Client, user_agent: str, proxy: str | None, app_
             await Tapper(tg_client=tg_client, app_version=app_version).run(proxy=proxy, user_agent=user_agent)
     except InvalidSession:
         logger.error(f"{tg_client.name} | Invalid Session")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -11,7 +11,7 @@ async def stream_output(process, folder):
         line = await process.stdout.readline()
         if line:
             message = line.decode('cp1251' if os.name == 'nt' else 'utf-8').rstrip().replace("<", "\\<").replace(">", "\\>")
-            formatted_message = f"[{folder_name}] | {message}"
+            formatted_message = f"=> {folder_name} | {message}"
             print(formatted_message)
         else:
             break
@@ -19,7 +19,7 @@ async def stream_output(process, folder):
         error_line = await process.stderr.readline()
         if error_line:
             error_message = error_line.decode('cp1251' if os.name == 'nt' else 'utf-8').rstrip().replace("<", "\\<").replace(">", "\\>")
-            formatted_error = f"[{folder_name}] [ERROR] | {error_message}"
+            formatted_error = f"=> {folder_name} [ERROR] | {error_message}"
             print(formatted_error)
         else:
             break
@@ -28,7 +28,7 @@ async def stream_output(process, folder):
 async def run_bot(bot_name, bot_path):
     while True:
         process = await asyncio.create_subprocess_exec(
-            'python' if os.name == 'nt' else 'python3.11',
+            'python' if os.name == 'nt' else 'python3',
             bot_path,
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE

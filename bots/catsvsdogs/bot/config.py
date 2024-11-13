@@ -9,6 +9,7 @@ class Settings(BaseSettings):
 
     API_ID: int = global_settings.API_ID
     API_HASH: str = global_settings.API_HASH
+    WORKDIR: str = 'bots/catsvsdogs/sessions/'
 
     LOGIN_SLEEP: list[int] = global_settings.LOGIN_SLEEP
     MINI_SLEEP: list[int] = global_settings.MINI_SLEEP

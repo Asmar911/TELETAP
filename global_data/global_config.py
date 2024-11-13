@@ -6,6 +6,7 @@ class Settings(BaseSettings):
 
     API_ID: int 
     API_HASH: str 
+    WORKDIR: str = 'global_data/sessions/'
 
     LOGIN_SLEEP: list[int] = [60, 360]
     MINI_SLEEP: list[int] = [5, 15]
@@ -14,19 +15,20 @@ class Settings(BaseSettings):
     BOT_MOOD_SEQUENTIAL: bool= False
     ACCOUNTS_MOOD_SEQUENTIAL: bool= True
 
-
-
     ACTIVE_BOTS: dict[str, dict] = {
         "blum": {"Active": True, "REF_ID": "ref_P4Rbg063KM"},
-        "catsgang": {"Active": False, "REF_ID": "VcEZmxM20ef4jbRAn1ppe"},
-        "catsvsdogs": {"Active": True, "REF_ID": "153623395"},
-        "cexio": {"Active": True, "REF_ID": "1716712060572190"},
+        "catsvsdogs": {"Active": False, "REF_ID": "153623395"}, # Need Update
+        "cexio": {"Active": False, "REF_ID": "1716712060572190"}, # Need Update
         "goats": {"Active": True, "REF_ID": "68bd4bd3-172c-4f22-aa90-e092517e12b5"},
-        "major": {"Active": True, "REF_ID": "153623395"},
-        "notpixel": {"Active": True, "REF_ID": "f153623395"},
-        "tomarket": {"Active": True, "REF_ID": "0000omgl"}
+        "notpixel": {"Active": False, "REF_ID": "f153623395"}, # Need Update
+        "boinkers": {"Active": True, "REF_ID": "boink153623395"}, # Need Update
+        "b-user": {"Active": True, "REF_ID": "ref-cskJfjtbUhT8Uw2h8JyDHa"},
+        "fintopio": {"Active": True, "REF_ID": "reflink-reflink_lkihScR7z5HVlZlM-"},
+        "moonbix": {"Active": False, "REF_ID": "ref_1536233950"}, # Not Working yet
+        "okxracer": {"Active": True, "REF_ID": "linkCode_93102758"}, 
+        "TrustApp": {"Active": True, "REF_ID": "1345ea46-52fc-41bb-afde-f820bcadab38"}, 
+        "TimeFarm": {"Active": True, "REF_ID": "1eYFkqTqjduuyi4DN"},
+        "bool": {"Active": True, "REF_ID": "1E8C0"},
     }
     
-
-
 global_settings = Settings()
