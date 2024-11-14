@@ -35,22 +35,27 @@
   <h2 align="center">Supported Bots ✅</h2>
 
   <p align="center">
-    <a href='https://t.me/blum/app?startapp=ref_P4Rbg063KM'>Blum</a>
+    <a href='https://t.me/b_usersbot/join?startapp=ref-cskJfjtbUhT8Uw2h8JyDHa'>b-user</a>
+    | <a href='https://t.me/blum/app?startapp=ref_P4Rbg063KM'>Blum</a>
+    | <a href='https://t.me/boinker_bot/boinkapp?startapp=boink153623395'>Boinkers</a>
+    | <a href='https://t.me/boolfamily_bot/join?startapp=1E8C0'>Bool</a>
     | <a href='https://t.me/catsdogs_game_bot/join?startapp=153623395'>CatsVSDogs</a>
     | <a href='https://t.me/cexio_tap_bot?start=1716712060572190'>CEXIO</a>
+    | <a href='https://fintop.io/2wX1Q6R3RA'>Fintopio</a>
     | <a href='https://t.me/realgoats_bot/run?startapp=68bd4bd3-172c-4f22-aa90-e092517e12b5'>GOATS</a>
-    | <a href='https://t.me/major/start?startapp=153623395'>Major</a>
+    | <a href='https://t.me/gamee/start?startapp=ref_153623395'>Moonbix</a>
     | <a href='https://t.me/notpixel/app?startapp=f153623395'>Not Pixel</a>
-    | <a href='https://t.me/Tomarket_ai_bot/app?startapp=0000omgl'>Tomarket</a>
+    | <a href='https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_93102758'>OKXRacer</a>
+    | <a href='https://t.me/TimeFarmCryptoBot?start=1eYFkqTqjduuyi4DN'>Time Farm</a>
+    | <a href='https://t.me/trust_empire_bot/trust_app?startapp=1345ea46-52fc-41bb-afde-f820bcadab38'>TrustApp</a>
   </p>
 
 
   <h2 align="center">Coming Soon ⏳</h2>
 
   <p align="center">
-    <a href='https://t.me/token1win_bot/start?startapp=refId1254614970'>1Win Token</a>
+    <a href='http://t.me/token1win_bot/start?startapp=refId1254614970'>1Win Token</a>
     | <a href='https://t.me/BitsTonboxBot/BitsAirdrops?startapp=EJLsu9TTBuiazC93NnbaNz'>Bits</a>
-    | <a href='https://t.me/boinker_bot/boinkapp?startapp=boink153623395'>Boinkers</a>
     | <a href='https://t.me/bums/app?startapp=ref_7tSfMieY'>Bums</a>
     | <a href='https://t.me/sparkscirclebot?start=ref2786541'>Circle</a>
     | <a href='https://t.me/cityholder/game?startapp=153623395'>City Holder</a>
@@ -58,20 +63,19 @@
     | <a href='https://t.me/coub/app?startapp=coub__marker_17772137'>Coub</a>
     | <a href='https://t.me/cryptorank_app_bot/points?startapp=ref_153623395_'>CryptoRank</a>
     | <a href='https://t.me/dotcoin_bot?start=r_153623395'>Dotcoin</a>
-    | <a href='https://fintop.io/2wX1Q6R3RA'>Fintopio</a>
     | <a href='https://t.me/fabrika/app?startapp=ref_487203'>Friends Factory</a>
     | <a href='https://t.me/HexacoinBot/wallet?startapp=153623395'>Hexacore</a>
     | <a href='https://t.me/hexn_bot/app?startapp=eed6c6c0-7ccd-42fa-bb4e-4cff50aa4299'>HEXNIO</a>
+    | <a href='https://t.me/major/start?startapp=153623395'>Major</a>
     | <a href='https://t.me/MatchQuestBot/start?startapp=19a4cfda883b0d282c43e3be0d069adb'>MatchQuest</a>
     | <a href='https://t.me/memefi_coin_bot/main?startapp=r_74aa47c992'>MEMEFI</a>
     | <a href='https://t.me/MemesLabBot/MemesLab?startapp=XXMILV'>Memes Lap</a>
     | <a href='https://t.me/MMproBump_bot?start=ref_153623395'>MMProBump</a>
     | <a href='https://t.me/NomisAppBot/app?startapp=ref_pXZmyEgF9C'>Nomis</a>
     | <a href='https://t.me/NotBoredPuppies_bot?start=r_153623395'>Not Bored Puppies</a>
-    | <a href='https://t.me/OKX_official_bot/OKX_Racer?startapp=linkCode_93102758'>OKXRacer</a>
     | <a href='https://t.me/seed_coin_bot/app?startapp=153623395'>SEED</a>
     | <a href='https://t.me/Simple_Tap_Bot/app?startapp=1723961197775'>Simple Coin</a>
-    | <a href='https://t.me/TimeFarmCryptoBot?start=1eYFkqTqjduuyi4DN'>Time Farm</a>
+    | <a href='https://t.me/Tomarket_ai_bot/app?startapp=0000omgl'>Tomarket</a>
     | <a href='https://t.me/tonstationgames_bot/app?startapp=ref_4sbbv2a964pxhhabk6wyjz'>Ton Station</a>
     | <a href='https://t.me/wcoin_tapbot?start=MTUzNjIzMzk1'>W-coin</a>
     | <a href='https://t.me/y_nation_bot/start?startapp=PBZW3D'>Y Nation</a>
@@ -99,7 +103,7 @@ To fast install libraries and run bot - open `run.bat` on Windows or `run.sh` on
 
 ## Prerequisites
 Before you begin, make sure you have the following installed:
-- [Python](https://www.python.org/downloads/) **version 3.10**
+- [Python](https://www.python.org/downloads/) **version 3.10** (or highr)
 
 ## Obtaining API Keys
 1. Go to [my.telegram.org](https://my.telegram.org) and log in using your phone number.
@@ -113,18 +117,19 @@ git clone https://github.com/Asmar911/TELETAP
 cd TELETAP
 ```
 
-Then you can do automatic installation by typing:
+Then you can do automatic install and run the script by typing:
 
 Linux:
 ```shell
 INSTALL.sh
+START.sh
 ```
 
 Windows:
 ```shell
 INSTALL.bat
+START.bat
 ```
-
 
 ## Linux manual installation
 ```shell
@@ -141,10 +146,16 @@ You can also use arguments for quick start, for example:
 ~/TELETAP >>> python3 main.py --action (1/2/3/...)
 # Or
 ~/TELETAP >>> python3 main.py -a (1/2/3/...)
+--------
+~/TELETAP >>> python3 main.py -action 4 -bot [botname] # only for option 4
+# or
+~/TELETAP >>> python3 main.py -a 4 -b [botname] # only for option 4
 
 # 1 -> Create session
-# 2 -> Run Clicker (all bots)
-# 3 -> Run Clicker (specific bot)
+# 2 -> Update sessions files
+# 3 -> Run Clicker (all bots)
+# 4 -> Run Clicker (specific bot)
+# ...
 ```
 
 ## Windows manual installation
@@ -162,10 +173,16 @@ You can also use arguments for quick start, for example:
 ~/TELETAP >>> python main.py --action (1/2/3/...)
 # Or
 ~/TELETAP >>> python main.py -a (1/2/3/...)
+--------
+~/TELETAP >>> python main.py -action 4 -bot [botname] # only for option 4
+# or
+~/TELETAP >>> python main.py -a 4 -b [botname] # only for option 4
 
 # 1 -> Create session
-# 2 -> Run Clicker (all bots)
-# 3 -> Run Clicker (specific bot)
+# 2 -> Update sessions files
+# 3 -> Run Clicker (all bots)
+# 4 -> Run Clicker (specific bot)
+# ...
 ```
 
 ## Accounts System Usages
@@ -184,11 +201,25 @@ Here is an example of what accounts.json should look like:
 ]
 ```
 
+
+## Bots activation and REFERRAL LINKS
+
+To activate and deactivate bots:
+
+1. Go to the `global_data` folder.
+2. Open the `global_config` file.
+3. In **ACTIVE_BOTS** turn on or off the bots you want to activate.
+```shell
+"blum": {"Active": True, "REF_ID": "ref_P4Rbg063KM"},
+"catsvsdogs": {"Active": False, "REF_ID": "153623395"},
+# ...
+```
+
 ## Support the Project 💖
 
 If you find this project helpful and would like to support its continued development, please consider making a donation. Every contribution helps keep the project alive and growing!
 
-  
+
 **TON | NOT | Dogs:** `UQDFp-zGPYKSolKFo5s7X5L3OfSIpDMCDCT4Oygmo9UOxEOE`
 
 **Tron:** `TU46XiqqYrGZVNNEwng7C2qxA1iq1bnTAH`

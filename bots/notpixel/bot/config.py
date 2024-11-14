@@ -9,6 +9,7 @@ class Settings(BaseSettings):
 
     API_ID: int = global_settings.API_ID
     API_HASH: str = global_settings.API_HASH
+    WORKDIR: str = 'bots/notpixel/sessions/'
 
     LOGIN_SLEEP: list[int] = global_settings.LOGIN_SLEEP
     MINI_SLEEP: list[int] = global_settings.MINI_SLEEP
@@ -18,19 +19,23 @@ class Settings(BaseSettings):
     REF_ID: str = global_settings.ACTIVE_BOTS['notpixel']['REF_ID']
 
     
-    AUTO_PAINT: bool = True
-    AUTO_MINING: bool = True
+    SLEEP_TIME: list[int] = [6000, 7200]
+    AUTO_DRAW: bool = True
     AUTO_TASK: bool = True
-    AUTO_UPGRADE: bool = False
-    AUTO_UPGRADE_PAINT: bool = True
-    MAX_PAINT_LEVEL: int = 7
-    AUTO_UPGRADE_CHARGE: bool = True
-    MAX_CHARGE_LEVEL: int = 11
-    AUTO_UPGRADE_ENERGY: bool = True
-    MAX_ENERGY_LEVEL: int = 6
-    TASKS: list[str] = ["paint20pixels", "leagueBonusSilver", "x:notcoin", "x:notpixel"]
-    COLORS: list[str] = ["#6A5CFF", "#e46e6e", "#FFD635", "#7EED56", "#00CCC0", "#51E9F4", "#94B3FF",
-                         "#9C6926", "#6D001A", "#bf4300", "#000000", "#FFFFFF"]
+    JOIN_TG_CHANNELS: bool = True
+    CLAIM_REWARD: bool = True
+    
+    AUTO_UPGRADE: bool = True
+    PAINT_REWARD_MAX_LEVEL: int = 7
+    RECHARGE_SPEED_MAX_LEVEL: int = 11
+    ENERGY_LIMIT_MAX_LEVEL: int = 7
+    
+    IGNORED_BOOSTS: list[str] = []
+    IN_USE_SESSIONS_PATH: str = './bots/notpixel/bot/used_sessions.txt'
+
+    NIGHT_MODE: bool = True
+    NIGHT_TIME: list[int] = [0, 7] #UTC HOURS
+    NIGHT_CHECKING: list[int] = [3600, 7200]
     
 
 settings = Settings()

@@ -3,7 +3,7 @@ from pyrogram import Client
 from scripts.file_manager import save_to_json
 from scripts.logger import logger
 from scripts.agents import generate_random_user_agent
-from global_data.global_config import global_settings 
+from global_data.global_config import global_settings
 
 
 async def create_session() -> None:
@@ -33,12 +33,15 @@ async def create_session() -> None:
         await create_session()
 
 
-async def get_tg_client(session_name: str, proxy: str | None) -> Client:
+async def get_tg_client(session_name: str, proxy: str | None, workdir: str | None) -> Client:
     if not session_name:
         raise FileNotFoundError(f"{session_name} NOT FOUND")
 
     if not global_settings.API_ID or not global_settings.API_HASH:
         raise ValueError("API_ID and API_HASH not found in the .env file.")
+
+    if not workdir:
+        raise ValueError("WORKDIR not found in the .env file.")
 
     proxy_dict = {
         "scheme": proxy.split(":")[0],
@@ -52,7 +55,7 @@ async def get_tg_client(session_name: str, proxy: str | None) -> Client:
             name=session_name,
             api_id=global_settings.API_ID,
             api_hash=global_settings.API_HASH,
-            workdir="global_data/sessions/",
+            workdir=workdir,
             # plugins=dict(root="bot/plugins"),
             proxy=proxy_dict
         )
