@@ -36,7 +36,7 @@ def save_to_json(path: str, dict_):
 
 
 async def update_sessions_file():
-    await delete_session_folders()
+    await delete_session_folders(log=False)
     bots_path = 'bots/'
     try:
         for bot_folder in os.listdir(bots_path):
@@ -55,16 +55,16 @@ async def update_sessions_file():
 
 
 
-async def delete_session_folders():
+async def delete_session_folders(log: bool | None):
     bots_path = 'bots/'
     try:
         for bot_folder in os.listdir(bots_path):
             bot_folder_path = os.path.join(bots_path, bot_folder)
-            
-            # Ensure we are working with a directory
             if os.path.isdir(bot_folder_path):
                 bot_sessions_path = os.path.join(bot_folder_path, 'sessions')
                 if os.path.exists(bot_sessions_path):
                     shutil.rmtree(bot_sessions_path)
+        if log:
+            logger.info("Sessions folders deleted successfully.")
     except Exception as e:
         logger.error(f"Error deleting sessions folders: {e}")

@@ -15,7 +15,7 @@ async def create_session() -> None:
 
     raw_proxy = input("Input the proxy in the format type://user:pass:ip:port (press Enter to use without proxy): ")
     user_agent = input("Input the user agent: (press Enter to use random user agent): ")
-    session = await get_tg_client(session_name=session_name, proxy=raw_proxy)
+    session = await get_tg_client(session_name=session_name, proxy=raw_proxy, workdir=global_settings.WORKDIR)
     async with session:
         user_data = await session.get_me()
 

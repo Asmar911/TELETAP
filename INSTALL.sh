@@ -38,20 +38,25 @@
 # fi
 
 
-
-
-echo "Creating virtual environment..."
-python3 -m venv venv
-
+if [ -d "venv" ]; then
+    echo "Virtual environment already exists, activating it..."
+else
+    echo "Creating virtual environment..."
+    python3 -m venv venv
+fi
 echo "Activating virtual environment..."
 source venv/bin/activate
-
+echo "Installing wheel for faster installing"
+pip3 install wheel
 echo "Installing dependencies..."
 pip3 install -r requirements.txt
-
-echo "Copying .env-example to .env..."
-cp .env-example .env
-nano .env  # Here you must specify your API_ID and API_HASH
-
-echo "Please edit the .env file to add your API_ID and API_HASH."
+if [ -f ".env" ]; then
+    echo ".env file already exists, skipping copy."
+else
+    echo "Copying .env-example to .env..."
+    cp .env-example .env
+    echo "Please edit the .env file to add your API_ID and API_HASH."
+    nano .env  # Edit the .env file
+fi
 read -p "Press Enter to continue..."
+

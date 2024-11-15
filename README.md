@@ -147,14 +147,13 @@ You can also use arguments for quick start, for example:
 # Or
 ~/TELETAP >>> python3 main.py -a (1/2/3/...)
 --------
-~/TELETAP >>> python3 main.py -action 4 -bot [botname] # only for option 4
+~/TELETAP >>> python3 main.py -action 3 -bot [botname] # only for option 3
 # or
-~/TELETAP >>> python3 main.py -a 4 -b [botname] # only for option 4
+~/TELETAP >>> python3 main.py -a 3 -b [botname] # only for option 3
 
-# 1 -> Create session
-# 2 -> Update sessions files
-# 3 -> Run Clicker (all bots)
-# 4 -> Run Clicker (specific bot)
+# 1 -> Actions with sessions
+# 2 -> Run Clicker (all bots)
+# 3 -> Run Clicker (specific bot)
 # ...
 ```
 
@@ -174,14 +173,13 @@ You can also use arguments for quick start, for example:
 # Or
 ~/TELETAP >>> python main.py -a (1/2/3/...)
 --------
-~/TELETAP >>> python main.py -action 4 -bot [botname] # only for option 4
+~/TELETAP >>> python main.py -action 3 -bot [botname] # only for option 3
 # or
-~/TELETAP >>> python main.py -a 4 -b [botname] # only for option 4
+~/TELETAP >>> python main.py -a 3 -b [botname] # only for option 3
 
-# 1 -> Create session
-# 2 -> Update sessions files
-# 3 -> Run Clicker (all bots)
-# 4 -> Run Clicker (specific bot)
+# 1 -> Actions with sessions
+# 2 -> Run Clicker (all bots)
+# 3 -> Run Clicker (specific bot)
 # ...
 ```
 
